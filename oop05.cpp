@@ -1,4 +1,5 @@
 //NESNE VÝZE 1. SORU TEMEL
+//OMER FARUK FÝDAN
 #include<iostream>
 
 
@@ -34,9 +35,10 @@ Ogrenci::Ogrenci(int no, string sinif)
 int main()
 {
     
-   Ogrenci obj1(30119020);
-   Ogrenci obj2(30119020 ,"2. Sinif"); 
+   Ogrenci obj1(30119020); 
    obj1.OgrenciBilgileri();
+   
+   Ogrenci obj2(30119020 ,"2. Sinif"); 
    obj2.OgrenciBilgileri(); 
     
     

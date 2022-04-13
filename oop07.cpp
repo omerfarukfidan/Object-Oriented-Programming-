@@ -1,4 +1,5 @@
 //NESNE VÝZE 3. SORU ARKADAÞ
+//OMER FARUK FÝDAN
 #include<iostream>
 
 
@@ -13,7 +14,7 @@ class Teknopark
     public:
         
         Teknopark() : kurulusYili(2001),UniversiteAdi("IZU"),ilce("Kucukcekmece"){};
-        friend void Bilgilerim(Teknopark);
+        friend void Bilgilerim(Teknopark T1);
         
 };
 
