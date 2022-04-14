@@ -57,7 +57,7 @@ void Ogrenci::setOgrNo(string ogrNo)
 
 void Ogrenci::kendiniTanit(string ogrNo, int yas1, string tcNo1)
 {
-    OgrNo=ogrNo;
+   
     cout<<"Ogrenci No: "<<OgrNo<<endl;
     cout<<"Ogrenci Yas: "<<yas1<<endl;
     cout<<"Tc No: "<<tcNo1<<endl;
@@ -70,7 +70,7 @@ int main()
     
     Ogrenci obj1("");
 	obj1.setOgrNo("030120118");
-	obj1.kendiniTanit("030120118",obj1.Yas(),"11111111");
+	obj1.kendiniTanit("030120112",obj1.Yas(),"11111111");
     
     
     return 0;

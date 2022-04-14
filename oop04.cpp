@@ -11,6 +11,7 @@ class father
     protected:
         string name;
     public:
+        
         void setNumberOfChild(int numberOfChild1)
     {
         numberOfChild=numberOfChild1;    
